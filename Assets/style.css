@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    background: #1e1e1e;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 15px;
+    height: 80vh;
+}
+
+.box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    flex: 1;
+    background: #2d2d2d;
+    color: #9cdcfe;
+    border: 1px solid #444;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+#status {
+    color: #4ec9b0;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
